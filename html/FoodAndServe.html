@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/FoodAnd Serve.css">
+    <title>Food And Serve</title>
+    </head>
+    <body>
+        <h1>FOOD & SERVE</h1>
+      <a href="../html/portfolio.html"> <h6>Back to Portfolio</h6></a>
+      <div class="card-wrapper">
+
+          <div class="card1">
+            <i class="fa fa-heart-o" aria-hidden="true" id="heart"  onclick="liked(this,'count1')">
+            <span class="count" id='count1'>1</span></i>
+            <a href="../photos/fasimg1.jpg" download="../photos/fasimg1.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true"  id="download1"></i></a>
+            <i class="fa fa-share" aria-hidden="true" id="share1" ></i>
+          </div>
+
+          <div class="card2" style="background-image: url('../photos/fasimg2.jpg');">
+            <i class="fa fa-heart-o" aria-hidden="true" id="heart" onclick="liked(this,'count2')">
+          <span class="count" id='count2'>1</span></i>
+          <a href="../photos/fasimg2.jpg" download="../photos/fasimg2.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id="download2" ></i></a>
+          <i class="fa fa-share" aria-hidden="true" id="share2"></i>
+        </div>
+
+        <div class="card3" style="background-image: url('../photos/fasimg3.jpg');">
+          <i class="fa fa-heart-o" aria-hidden="true" id='card-heart' onclick="liked(this,'count3')">
+          <span class="count" id='count3'>1</span></i>
+          <a href="../photos/fasimg3.jpg" download="../photos/fasimg3.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id='download3'></i></a>
+          <i class="fa fa-share" aria-hidden="true" id='share3'></i>
+        </div>
+
+        <div class="card4" style="background-image: url('../photos/fasimg4.jpg');">
+            <i class="fa fa-heart-o" aria-hidden="true" id='card-heart' onclick="liked(this,'count4')">
+                <span class="count" id='count4'>1</span></i>
+                <a href="../photos/fasimg4.jpg" download="../photos/fasimg4.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id='download4'></i></a>
+                <i class="fa fa-share" aria-hidden="true" id='share4'></i>
+        </div>
+
+        <div class="large-card" style="background-image: url('../photos/fasimg5.jpg');">
+            <i class="fa fa-heart-o" aria-hidden="true" id='large-heart' onclick="liked(this,'count5')">
+                <span class="count" id='count5'>1</span></i>
+                <a href="../photos/fasimg5.jpg" download="../photos/fasimg5.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id='large-download'></i></a>
+                <i class="fa fa-share" aria-hidden="true" id='large-share'></i>
+        </div>
+
+      </div>   
+          <script>
+        function liked(el,count){
+          
+          console.log(count);
+        // var element = el.getElementById("heart");
+        el.classList.toggle("liked");
+        
+        var element1=document.getElementById(count);
+        element1.classList.toggle("visible");
+        console.log(element1);
+
+        }
+      </script>
+    </body>
+</html>

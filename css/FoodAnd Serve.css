@@ -1,0 +1,181 @@
+h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: cinzel serif;
+    font-weight: 200;
+    margin-top: 93px;
+}
+h6{
+    position: relative;
+    bottom: 84px;
+    left: 204px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+
+.card-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1{
+    background-image: url('../photos/fasimg1.jpg');
+    background-size: contain;
+    height: 519px;
+    width: 772px;
+    margin-left: 18px;
+    color: white;
+    font-size: 20px;
+}
+
+/* .card1:hover{
+    width: 767px;
+} */
+.card2{
+    background-size: cover;
+    height: 519px;
+    width: 437px; 
+    margin-left: 11px;
+    color: white;
+    font-size: 20px;
+}
+/* .card2:hover{
+    width: 433px;
+} */
+.card3{
+    margin-top: 10px;
+    background-size: cover;
+    width: 643px;
+    height: 417px;
+    margin-left: 18px;
+    color: white;
+    font-size: 20px;
+}
+
+/* .card3:hover{
+    width:413px;
+} */
+.card4{
+    background-size: cover;
+    height: 417px;
+    width: 567px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* .card4:hover{
+    width: 562px;
+} */
+.large-card{
+    background-size: cover;
+    height: 795px;
+    width: 1221px;
+    margin-top: 10px;
+    margin-left: 18px;
+    color: white;
+    font-size: 20px;
+}
+
+.large-card:hover{
+    width: 1216px;
+}
+
+.fa-heart-o.liked {
+    color:red;   
+  }
+
+  .count.visible{
+      display: initial;
+      color: white;
+  }
+
+  .count{
+    display: none;
+  }
+
+  #heart{
+    position: relative;
+    top: 486px;
+    left: 19px;
+  }
+
+  #download1{
+    color: white;
+    position: relative;
+    left: 678px;
+    top: 487px;
+  }
+  #share1{
+    position: relative;
+    left: 687px;
+    top: 487px;  
+  }
+
+  #download2{
+    color: white;
+    position: relative;
+    top: 486px;
+    left: 343px;
+  }
+
+  #download3{
+    color: white;
+    position: relative;
+    top: 380px;
+    left: 529px;
+}
+#download4{
+    color: white;
+    position: relative;
+    top: 380px;
+    left: 466px;
+}
+
+  
+  #share2{
+    position: relative;
+    top: 485px;
+    left: 348px;
+  }
+
+#share3{
+    position: relative;
+    top: 380px;
+    left: 550px;
+}
+#share4{
+    position: relative;
+    top: 380px;
+    left: 479px;
+}
+
+  #card-heart{
+    position: relative;
+    top: 377px;
+    left: 19px;
+  }
+  #large-heart{
+    position: relative;
+    top: 752px;
+    left: 40px;
+  }
+
+  #large-download{
+    position: relative;
+        top: 754px;
+        left: 1064px;
+    }
+
+    #large-share{
+        position: relative;
+            top: 754px;
+            left: 1090px;
+        }

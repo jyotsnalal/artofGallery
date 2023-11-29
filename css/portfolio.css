@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 44px;
+    font-family: serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card-wrapper{
+    display: flex;
+    position: relative;
+    margin-top: 90px;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    text-align: center;
+    padding-top: 65px;
+    height: 700px;
+    width: 408px;
+    margin: 8px;
+    background-image: url("../photos/editorial.jpg");
+    background-size: cover;
+
+}
+h2{
+    
+    color: white;
+    font-size: 40px;
+    font-family: ui-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+button{
+    padding: 9px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}

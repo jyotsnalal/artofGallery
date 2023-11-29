@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: cinzel serif;
+    font-weight: 200;
+    margin-top: 93px;
+}
+h6{
+    position: relative;
+    bottom: 84px;
+    left: 204px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+
+.card{
+    background-image: url('../photos/baked1.jpg');
+    background-size: cover;
+    height: 158px;
+    width: 242px;
+    margin-left: 10px;
+}
+
+/* .card:hover{
+    width: 238px;
+} */
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: start;
+    left: 44px;
+}
+.card1{
+    background-size: cover;
+    height: 520px;
+    width: 732px;
+    margin: 0px 12px;
+}
+
+/* .card1:hover{
+    width: 729px;
+} */
+.card2{
+    background-size: cover;
+    height: 351px;
+    width: 493px;
+    position: absolute;
+    margin-top: 169px;
+    left: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+/* .card2:hover{
+    width: 488px;
+} */
+#heart{
+    color: white;
+    position: relative;
+    left: 8px;
+    top: 131px;
+}
+#download{
+    color: white;
+    position: relative;
+    left: 173px;
+    top: 131px;
+}
+#share{
+    color: white;
+    position: relative;
+    left: 178px;
+    top: 131px;
+}
+
+#heart1{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 486px;
+    left: 12px;
+}
+
+#download1{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: 631px;
+    top: 491px;
+}
+#share1{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: 641px;
+    top: 491px;
+}
+#heart2{
+    font-size: 20px;
+    position: relative;
+    top: 320px;
+    left: 10px;
+}
+
+#download2{
+    color: white;
+    position: relative;
+    top: 320px;
+    font-size: 20px;
+    left: 400px;
+}
+#share2{
+    font-size: 20px;
+    position: relative;
+    top: 321px;
+    left: 410px;
+}
+
+.fa-heart-o.liked {
+    color:red;  
+  }
+
+  .count.visible{
+      display: initial;
+      color: white;
+  }
+  .count{
+    display: none;
+  }

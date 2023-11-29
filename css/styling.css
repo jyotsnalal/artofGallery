@@ -1,0 +1,80 @@
+.h1-heading{
+    color: #ffffff;
+    font-size: 72px;
+    font-family: serif;
+    font-weight: 500;
+    letter-spacing: 9px;
+    text-align: center;
+    margin-top: 162px;
+
+}
+
+h2{
+    color: white;
+    font-size: 23px;
+    font-family: serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: -26px;
+}
+.mainbutton{
+    padding: 11px 31px;
+    background: transparent;
+    color: white;
+    border: solid white 2px;
+    width: 155px;
+    margin: 0px auto;
+}
+.mainbutton:hover{
+    background-color: black;
+    color:white;
+    border: solid white 1px;
+}
+.topnav {
+    overflow: hidden;
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    font-family: fangsong;
+    margin-right: 44px;
+    margin-bottom: 34px;
+
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:white;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .center-div{
+    background-image: url('../photos/main2.jpg');
+    height:845px;
+    width: 1200px;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    text-align: center;
+  }
+  .footer{
+    text-align: center;
+    padding: 47px;
+    font-size: 34px;
+  }
+

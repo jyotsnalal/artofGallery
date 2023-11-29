@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/editorial.css">
+    <title>Editorial</title>
+    </head>
+    <body>
+       <h1>EDITORIAL</h1>
+      <a href="../html/portfolio.html"> <h6>Back to Portfolio</h6></a>
+
+      <div class="card-wrapper">
+        <div style="width: 600px; margin: 10px; display: flex;
+        justify-content: center;">
+
+       <a href="../html/editorialimg.html">
+         <div class="card"> 
+          <i class="fa fa-heart-o" aria-hidden="true" id="heart"  onclick="liked(this,'count1')">
+          <span class="count" id='count1'>1</span></i>
+         <a href="../photos/img1.jpg" download="../photos/img1.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true"  id="download"></i></a>
+          <i class="fa fa-share" aria-hidden="true" id="share" ></i>
+       
+        </div>
+      </a> 
+      </div>
+           <div style="width: 600px;margin: 10px;display: flex;
+           justify-content: center;">
+            <a href="../html/editorialimg.html">
+        <div class="card" style="background-image: url('../photos/img2.jpg')">
+          
+          <i class="fa fa-heart-o" aria-hidden="true" id="heart" onclick="liked(this,'count2')">
+          <span class="count" id='count2'>1</span></i>
+          <a href="../photos/img2.jpg" download="../photos/img2.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id="download" ></i></a>
+          <i class="fa fa-share" aria-hidden="true" id="share"></i>
+          
+        </div>
+      </a>
+
+      </div>
+      <a href="../html/editorialimg.html">
+        <div class="large-card"> 
+          <i class="fa fa-heart-o" aria-hidden="true" id='large-heart' onclick="liked(this,'count3')">
+          <span class="count" id='count3'>1</span></i>
+          <a href="../photos/img3.jpg" download="../photos/img3.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id='large-download'></i></a>
+          <i class="fa fa-share" aria-hidden="true" id='large-share'></i>
+        </div>
+        </a>
+
+
+        <a href="../html/editorialimg.html">
+        <div class="large-card" style="background-image: url('../photos/img4.jpg');"> 
+          <i class="fa fa-heart-o" aria-hidden="true" id='large-heart' onclick="liked(this,'count4')">
+          <span class="count" id='count4'>1</span></i>
+          <a href="../photos/img4.jpg" download="../photos/img4.jpg" style="color: white;"><i class="fa fa-download" aria-hidden="true" id='large-download'></i></a>
+          <i class="fa fa-share" aria-hidden="true" id='large-share'></i>
+        </div></a>
+
+      </div>
+      <script>
+        function liked(el,count){
+          
+          console.log(count);
+        // var element = el.getElementById("heart");
+        el.classList.toggle("liked");
+        
+        var element1=document.getElementById(count);
+        element1.classList.toggle("visible");
+        console.log(element1);
+        // var element = el.getElementById("large-heart");
+        // element.classList.toggle("liked");
+
+  
+      }
+      </script>
+    </body>
+</html>
